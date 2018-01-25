@@ -6,7 +6,7 @@ public class Expenses {
     private double totalAmount;
     private ArrayList<Expenses> numberOfExpenses = new ArrayList<>();
 
-    private Expenses(String nameOfExpense, double amountOfExpense) {
+    public Expenses(String nameOfExpense, double amountOfExpense) {
         this.nameOfExpense = nameOfExpense;
         this.amountOfExpense = amountOfExpense;
         this.totalAmount += amountOfExpense;
